@@ -113,7 +113,8 @@ else
         "ignoreTemplateLiterals": true,
         "ignoreRegExpLiterals": true
       }
-    ]
+    ],
+    "no-console": 0
   }
 }' >> .eslintrc${config_extension}
 fi

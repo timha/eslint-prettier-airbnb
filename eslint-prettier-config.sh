@@ -72,7 +72,6 @@ $pkg_cmd -D eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import esl
 
 echo
 echo -e "3/5 ${LCYAN}Making ESlint and Prettier play nice with each other... ${NC}"
-echo "See https://github.com/prettier/eslint-config-prettier for more details."
 echo
 $pkg_cmd -D eslint-config-prettier eslint-plugin-prettier
 
@@ -114,7 +113,8 @@ else
         "ignoreRegExpLiterals": true
       }
     ],
-    "no-console": 0
+    "no-console": 0,
+    "import/extensions": "off"
   }
 }' >> .eslintrc${config_extension}
 fi

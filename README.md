@@ -25,3 +25,7 @@ Rules:
    ```bash
    exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/timha/eslint-prettier-airbnb/main/eslint-prettier-config.sh 2> /dev/null)
    ```
+
+
+
+from https://github.com/paulolramos/eslint-prettier-airbnb-react

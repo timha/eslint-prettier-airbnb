@@ -1,4 +1,4 @@
-# personal eslint-prettier-airbnb
+# personal eslint-prettier-airbnb-react
 Package Manager: npm
 
 File Format: .json

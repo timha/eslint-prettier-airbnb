@@ -17,11 +17,11 @@ NC='\033[0m' # No Color
 pkg_cmd='npm install'
 # File Format
 config_opening='{'
-config_extension=".json"
+config_extension='.json'
 # Max Line Length
-max_len_val=80
+max_len_val='80'
 # Trailing Commas
-trailing_comma_pref="es5"
+trailing_comma_pref='es5'
 
 # Checks for existing eslintrc files
 if [ -f ".eslintrc.js" -o -f ".eslintrc.yaml" -o -f ".eslintrc.yml" -o -f ".eslintrc.json" -o -f ".eslintrc" ]; then

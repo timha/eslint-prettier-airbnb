@@ -1,8 +1,12 @@
 # personal eslint-prettier-airbnb
 Package Manager: npm
+
 File Format: .json
+
 Max Line Length: 80
+
 Trailing commas: ES5
+
 
 Rules:
 * no-console: 0
